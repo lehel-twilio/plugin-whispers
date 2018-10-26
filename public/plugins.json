@@ -1,0 +1,13 @@
+[
+  {
+    "name": "WhispersPlugin",
+    "version": "0.0.0",
+    "class": "WhispersPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1.0.0"
+      }
+    ],
+    "src": "http://localhost:8080/plugin-whispers.js"
+  }
+]
