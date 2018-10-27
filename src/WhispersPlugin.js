@@ -38,8 +38,13 @@ export default class WhispersPlugin extends FlexPlugin {
     }
 
     Actions.replaceAction('AcceptTask', (payload, original) => {
-      routePayload(payload, original)
-      return Promise().resolve()
+      //routePayload(payload, original)
+      //return Promise().resolve()
+
+      return new Promise((resolve, reject) => {
+        routePayload(payload, original);
+        resolve();
+      })
     })
   }
 }
