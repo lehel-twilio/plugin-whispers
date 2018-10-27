@@ -1,4 +1,4 @@
-Set your accountSid and serviceBaseURL in process.env.accountSid and process.env.serviceBaseUrl
+Set your accountSid and serviceBaseURL in /public/appConfig.js
 
 To build, run npm run build.
 
